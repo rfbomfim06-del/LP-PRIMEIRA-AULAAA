@@ -1,13 +1,12 @@
-#limpeza
 import os
 os.system('cls')
 
-#solicidando dados
-print('= solicitando dados')
-salario = int(input('digite o salario'))
-
-#processo
-divisao = salario / 1621
-
-print('= exibir dados')
-print(f'divisao:{divisao}')
+#entrada 
+usuario = input ('digite seu nome: ')
+faltas = int(input('digite sua falta: '))
+media = float(input('digite sua media:'))
+#processos
+if media <= 7 and  faltas <= 40:
+    print('aprovado')
+else:
+    print('reprovado')
