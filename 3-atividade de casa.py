@@ -7,10 +7,7 @@ num2 = int(input('digite o segundo numero: '))
 #processo
 operador = (input(''' 
 escolha o operador\n 
-+\n
--\n
-*\n
-/\n
++ | - | *| /
 '''))
 
 match operador:
