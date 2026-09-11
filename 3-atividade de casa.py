@@ -15,13 +15,13 @@ escolha a operador\n
 
 match operador:
     case  '+':
-        resultado = num1+ num2
+        resultado = num1 +  num2
     case '-':
-        resultado = num1+ num2
+        resultado = num1 - num2
     case '*':
-        resultado = num1+ num2
+        resultado = num1 * num2
     case '/':
-        resultado = num1+ num2
+        resultado = num1 / num2
     case _:
         resultado = 'operador invalido'
 
