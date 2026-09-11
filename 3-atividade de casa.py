@@ -6,7 +6,7 @@ num2 = int(input('digite o segundo numero: '))
 
 #processo
 operador = (input(''' 
-escolha a operador\n 
+escolha o operador\n 
 +\n
 -\n
 *\n
