@@ -6,7 +6,7 @@ print('= exibindo dados =')
 peso = float(input('digite seu peso: '))
 altura= float(input('digite sua altura: '))
 
-#procesasmento 
+#procesasmento
 calculo = peso/ (altura * altura)
 
 if calculo < 18.5:
