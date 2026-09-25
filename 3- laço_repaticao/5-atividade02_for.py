@@ -2,7 +2,7 @@ import os
 import time
 os.system('cls')
 
-numero = int(input('digete um numero: '))
+numero = int(input('digite um numero: '))
 
 for numero in range(numero, 0 , -1):
     print(numero)

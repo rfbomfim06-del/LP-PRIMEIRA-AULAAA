@@ -11,7 +11,7 @@ os.system('cls')
 # print(f'soma:{soma}')
 
 soma = 0
-for i in range(5):
+for i in range(3):
     numero = int(input('digite um numero: '))
     soma = numero + soma
 
